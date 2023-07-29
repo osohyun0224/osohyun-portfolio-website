@@ -1,18 +1,28 @@
-import React from 'react';
-import type { AppProps } from 'next/app';
-import { ThemeProvider } from 'styled-components';
+import React, { useEffect, useRef } from 'react';
+import styled from 'styled-components';
+import { gsap } from 'gsap';
 
-import GlobalStyle from '#/styles/globalStyles';
-import { theme } from '#/styles/theme';
+const Container = styled.section`
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  background-color: #333333;
+  color: ${({ theme }) => theme.color.main};
+`;
 
-function MyApp({ Component, pageProps }: AppProps) {
-  return (
-    <ThemeProvider theme={theme}>
-      <GlobalStyle />
-      {/* eslint-disable-next-line react/jsx-props-no-spreading */}
-      <Component {...pageProps} />
-    </ThemeProvider>
-  );
-}
+const Main = () => {
+  const myHeader = useRef(null);
 
-export default MyApp;
+  useEffect(() => {
+    gsap.to(myHeader.current, {
+      opacity: 0,
+      duration: 2,
+    });
+  }, []);
+
+  return <Container ref={myHeader}>Hyeonsu Jung</Container>;
+};
+
+export default Main;
