@@ -22,7 +22,7 @@ const Main = () => {
     });
   }, []);
 
-  return <Container ref={myHeader}>Hyeonsu Jung</Container>;
+  return <Container ref={myHeader}>Sohyun Oh</Container>;
 };
 
 export default Main;
