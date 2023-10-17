@@ -1,6 +1,14 @@
 import React from 'react';
 import Head from 'next/head';
-import Main from '../components/main';
+import IntroContainer from '../components/IntroContainer';
+import styled from 'styled-components';
+
+const Section = styled.section`
+  position: relative;
+  display: flex;
+  flex-direction: column;
+`;
+
 
 export default function Home() {
   return (
@@ -11,7 +19,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Main />
+      <Section>
+      <IntroContainer />
+      </Section>
       </main>
     </div>
   );
