@@ -8,5 +8,5 @@ export {default as Wooteco} from "../contents/education/WooahanTech";
 export {default as Prize}  from "../contents/prize/Prize";
 export {default as Contest}  from "../contents/contest/Contest";
 
-//봉사
+//rydbrqhdtk
 export {default as EduOutreach} from "../contents/volunteer/EduOutreach";
