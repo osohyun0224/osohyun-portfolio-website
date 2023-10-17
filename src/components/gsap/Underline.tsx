@@ -42,3 +42,4 @@ const Underline = ({ delay, children, color }: UnderlineProps) => {
 };
 
 export default Underline;
+

@@ -1,8 +1,8 @@
 import gsap from 'gsap';
-import React, { ReactNode, useEffect, useRef } from 'react';
+import React, { ReactChild, ReactChildren, useEffect, useRef } from 'react';
 
 interface TextProps {
-  children?: ReactNode; 
+  children?: ReactChild | ReactChildren | ReactChildren[] | ReactChild[];
   delay: number;
 }
 

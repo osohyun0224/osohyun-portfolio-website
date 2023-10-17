@@ -1,7 +1,8 @@
 import React from 'react';
 import Head from 'next/head';
-import IntroContainer from '../components/IntroContainer';
 import styled from 'styled-components';
+import Footer from "../components/Footer";
+import IntroContainer from '../components/IntroContainer';
 
 const Section = styled.section`
   position: relative;
@@ -21,6 +22,7 @@ export default function Home() {
       <main>
       <Section>
       <IntroContainer />
+      <Footer/>
       </Section>
       </main>
     </div>

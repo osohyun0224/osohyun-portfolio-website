@@ -1,11 +1,11 @@
 import gsap from 'gsap';
-import React, { ReactNode, useEffect, useRef } from 'react';
+import React, { ReactChild, ReactChildren, useEffect, useRef } from 'react';
 import styled from 'styled-components';
 
-import { REGULAR_TEXT } from '../../constants';
+import { REGULAR_TEXT } from '#/constants';
 
 interface TextProps {
-  children?: ReactNode; 
+  children?: ReactChild | ReactChildren | ReactChildren[] | ReactChild[];
   delay: number;
 }
 
