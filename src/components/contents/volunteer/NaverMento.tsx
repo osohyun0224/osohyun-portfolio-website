@@ -9,7 +9,7 @@ const LINKS = [
     href: 'https://www.instagram.com/reel/CqjdSrzor2n/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==',
   },
   {
-    text: '1784 스쿨혁명 소프트웨어야, 놀자! 프로젝트 우리는 동경한입니다.',
+    text: '1784 스쿨혁명 소프트웨어야, 놀자! 프로젝트 우리는 동경한입니다. GitHub Repository',
     href: 'https://github.com/osohyun0224/NaverConnect_SW_Project',
   },
 ];
@@ -18,7 +18,7 @@ const NaverMento = () => {
   return (
     <Styled.ExperienceCard>
       <Styled.ExperienceCardTitleType>교외 활동</Styled.ExperienceCardTitleType>
-      <Styled.ExperienceCardTitle id="네이버활동">[Naver Connect] 1784 스쿨혁명 대학생 멘토</Styled.ExperienceCardTitle>
+      <Styled.ExperienceCardTitle id="네이버활동">[Naver Connect] 1784 스쿨혁명 대학생 멘토 SW봉사</Styled.ExperienceCardTitle>
       <Styled.ExperienceCardExplainContainer>
         <Explain>2023.01.11 ~ 03.10 </Explain>
         <Explain>서울 용마초등학교 / 경기 의정부 민락중학교 </Explain>
