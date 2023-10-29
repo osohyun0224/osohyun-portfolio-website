@@ -16,6 +16,10 @@ const LINKS = [
     text: '[대표]React와 Vue.js에 Progressive Web Application 구현하기 시리즈',
     href: 'https://velog.io/@osohyun0224?tag=pwa',
   },
+  {
+    text: '[대표] 우아한테크코스 6기 선발 여정의 기록 시리즈',
+    href: 'hhttps://velog.io/@osohyun0224/series/%EC%9A%B0%ED%85%8C%EC%BD%94-6%EA%B8%B0-%EB%8F%84%EC%A0%84%ED%95%98%EA%B8%B0',
+  },
 ];
 
 const Velog = () => {
