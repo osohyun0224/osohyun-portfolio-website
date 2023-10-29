@@ -2,6 +2,12 @@ import React from 'react';
 
 import { Explain, InlineLinkText } from '../../common';
 import * as Styled from '../styled';
+import  ImageSlider  from '../../common/modules/ImageSlider';
+
+const IMAGES = [
+  '/image/council/able.png',
+  '/image/council/wusm.png',
+];
 
 const Council = () => {
   return (
@@ -26,6 +32,7 @@ const Council = () => {
         <Explain>🚩 단과대학 학우분들을 이끌어가는 대표 학생들 중 하나로 앞장서서 이끌어가며, 학교와 학우들을 위해 봉사하는 리더십 역량을 갖출 수 있었습니다.
         </Explain>
       </Styled.ExperienceCardExplainContainer>
+      <ImageSlider images={IMAGES} />
     </Styled.ExperienceCard>
   );
 };

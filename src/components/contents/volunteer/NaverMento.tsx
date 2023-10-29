@@ -2,6 +2,7 @@ import React from 'react';
 
 import { Explain, Links } from '../../common';
 import * as Styled from '../styled';
+import  ImageSlider  from '../../common/modules/ImageSlider';
 
 const LINKS = [
   {
@@ -12,6 +13,13 @@ const LINKS = [
     text: '1784 스쿨혁명 소프트웨어야, 놀자! 프로젝트 우리는 동경한입니다. GitHub Repository',
     href: 'https://github.com/osohyun0224/NaverConnect_SW_Project',
   },
+];
+
+const IMAGES = [
+  '/image/naver/naver1.jpg',
+  '/image/naver/naver2.jpg',
+  '/image/naver/naver3.jpg',
+  '/image/naver/naver4.jpg',
 ];
 
 const NaverMento = () => {
@@ -28,6 +36,7 @@ const NaverMento = () => {
         <Explain>대표 동아리로 선정되어 직접 활동 후기 인터뷰도 진행하였습니다.</Explain>
       </Styled.ExperienceCardExplainContainer>
       <Links links={LINKS} />
+      <ImageSlider images={IMAGES} />
     </Styled.ExperienceCard>
   );
 };

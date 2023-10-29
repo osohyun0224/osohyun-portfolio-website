@@ -2,6 +2,17 @@ import React from 'react';
 
 import { Explain, InlineLinkText } from '../../common';
 import * as Styled from '../styled';
+import  ImageSlider  from '../../common/modules/ImageSlider';
+
+const IMAGES = [
+  '/image/teachschool/milack1.png',
+  '/image/teachschool/milack2.jpg',
+  '/image/teachschool/milack3.jpg',
+  '/image/teachschool/milack4.jpg',
+  '/image/teachschool/milack5.jpg',
+  '/image/teachschool/milack6.jpg',
+  '/image/teachschool/milack7.jpg',
+];
 
 const TeachSchoolCourse = () => {
   return (
@@ -30,6 +41,7 @@ const TeachSchoolCourse = () => {
         </Explain>
         <Explain>🏆 2023학년도 한림대학교 우수 교생 실습 켈러상 수상</Explain>
       </Styled.ExperienceCardExplainContainer>
+      <ImageSlider images={IMAGES} />
     </Styled.ExperienceCard>
   );
 };
