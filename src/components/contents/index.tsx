@@ -1,8 +1,11 @@
-// Education
+// 교육
 export {default as Univ} from "../contents/education/Univ";
 export {default as TeachCourse} from "../contents/education/Teach";
 export {default as TeachSchool} from "../contents/education/TeachSchool";
 export {default as Wooteco} from "../contents/education/WooahanTech";
+
+// 학생회, 동아리
+export {default as Council} from "../contents/acting/Council";
 
 // 수상, 해커톤
 export {default as Prize}  from "../contents/prize/Prize";
@@ -11,6 +14,7 @@ export {default as Contest}  from "../contents/contest/Contest";
 //봉사
 export {default as EduOutreach} from "../contents/volunteer/EduOutreach";
 export {default as NaverMento} from "../contents/volunteer/NaverMento";
+export {default as MajorClass} from "../contents/volunteer/MajorClass";
 
 //project
 export {default as Amica } from "../contents/project/Amica";
