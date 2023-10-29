@@ -41,4 +41,4 @@ const Amica = () => {
   );
 };
 
-export default  Amica;
+export default Amica;
