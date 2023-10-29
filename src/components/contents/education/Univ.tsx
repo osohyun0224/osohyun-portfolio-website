@@ -3,7 +3,7 @@ import React from 'react';
 import { Explain } from '../../common';
 import * as Styled from '../styled';
 
-const ReactContribute = () => {
+const Univ = () => {
   return (
     <Styled.ExperienceCard>
       <Styled.ExperienceCardTitleType>대학교</Styled.ExperienceCardTitleType>
@@ -16,4 +16,4 @@ const ReactContribute = () => {
   );
 };
 
-export default ReactContribute;
+export default Univ;
