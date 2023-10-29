@@ -16,12 +16,11 @@ const LINKS = [
 ];
 
 const IMAGES = [
-  '/image/loca/loca1.png',
-  '/image/loca/loca2.png',
-  '/image/loca/loca3.jpg',
-  '/image/loca/loca4.png',
-  '/image/loca/loca5.jpg',
-  '/image/loca/loca6.jpg',
+  '/image/motus/motus1.png',
+  '/image/motus/motus2.png',
+  '/image/motus/motus3.png',
+  '/image/motus/motus4.png',
+  '/image/motus/motus5.png',
 ];
 
 const Motus = () => {
