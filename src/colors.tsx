@@ -5,13 +5,18 @@ export const WHITE_HOVER_TEXT_COLOR = 'rgba(237, 242, 247, 1)';
 export const WHITE_UNACTIVE_TEXT_COLOR = 'rgba(237, 242, 247, 0.4)';
 export const BLACK_UNACTIVE_TEXT_COLOR = 'rgba(74, 85, 104, 0.4)';
 
-// 글자 언더라인 바 색상
-export const UNDER_LINE_COLOR = '#0064FF';
+/* PAGE PROGRESS BAR */
+export const ACTIVE_BAR_WHITE = 'white';
+export const ACTIVE_BAR_BLACK = 'black';
 
-// 섹션의 배경 색상
+/* SECTION BACKGROUND COLOR */
 export const WHITE_BACKGROUND_COLOR = '#edf2f7';
 export const BLACK_BACKGROUND_COLOR = '#2d3748';
 
+/* UNDER LINE COLOR */
+export const UNDER_LINE_COLOR = '#0064FF';
+
+/* CONTACT */
 export const CONTACT_COLOR_PICKER = [
   {
     card: '#2d282a',

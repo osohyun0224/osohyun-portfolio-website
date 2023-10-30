@@ -8,6 +8,7 @@ export {default as Wooteco} from "../contents/education/WooahanTech";
 export {default as Council} from "../contents/acting/Council";
 export {default as Caerang} from "../contents/acting/Caerang";
 export {default as Likelion} from "../contents/acting/Likelion";
+export {default as Cou} from "../contents/acting/Cou";
 
 // 수상, 해커톤
 export {default as Prize}  from "../contents/prize/Prize";

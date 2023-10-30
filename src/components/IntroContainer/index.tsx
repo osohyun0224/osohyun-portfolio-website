@@ -46,7 +46,7 @@ const IntroContainer = () => {
         </FadeInBodyText>
         <div>
           <Styled.ImageBox>
-            <img src="/hyeonsu.jpeg" alt="sohyun-background" draggable={false} />
+            <img src="/osohyun0224.jpg" alt="sohyun-background" draggable={false} />
           </Styled.ImageBox>
         </div>
 
