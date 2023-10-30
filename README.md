@@ -1,34 +1,21 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🥰 오소현 포트폴리오
 
-## Getting Started
+## 📌 개인 포트폴리오 웹사이트 개발 프로젝트 
+> [개발자의 말]
+> 
+> [2023 SW Week] GitHub 이력서 콘테스트 해커톤 출품작 포트폴리오 웹사이트입니다:) <br/>
+> 저는 웹 프론트엔드 개발자가 되고 싶은 한림대학교 빅데이터전공 4학년 오소현입니다! <br/>
+> 제가 프론트엔드 개발자가 되기 위해 노력해온 이력들을 웹사이트에서 확인하실 수 있습니다.
 
-First, run the development server:
+## 📚 Tech Stack 
+### 💻 Development
+> 직접 Next.js와 Typescript 언어로 개발하고, Vercel로 호스팅하였습니다.
+<img src="https://skillicons.dev/icons?i=ts,react,nextjs,styledcomponents,vercel &perline="/>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## ✒️ 개발 소감
+- 현재 주로 React.js로 프로젝트 개발을 진행해오고 있어서, Nextjs의 감을 잃지 않기 위해 이를 사용해 개발하였습니다.
+- 이 웹사이트를 기획하면서 단순히 제 기술적 능력을 보여주는 것을 넘어서, 제 자신의 개발자로서 지향하는 가치가 무엇인지 담고자 노력했습니다.
+- 개발 과정에서 제가 그동안 해왔던 활동들과 프로젝트를 정리하는 과정에서 프론트엔드 개발자가 되기 위해 어떤 것을 해왔었고 부족한 점은 무엇인지 고민하게 되는 좋은 계기가 되었습니다.
+- 단순히 대회에 참가하기 위해 구현한 것 보다, 제 자신의 개발자로써의 커리어를 되돌아볼 수 있었던 좋은 프로젝트였습니다.
+- 앞으로도 이제 제가 진행하는 메인 프로젝트에도 Next.js와 Typescript를 도입해서 개발할 수 있도록 더욱 노력할 것입니다.
+- 이러한 경험을 바탕으로 계속해서 더 나은 개발자, 다음에도 함께 협업하고 싶은 개발자로 성장하겠습니다.
